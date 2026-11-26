@@ -8,6 +8,8 @@ This directory is the interview revision guide for the e-commerce system. Each c
 4. **Code walkthrough** — representative code from this repository or a clearly labelled production blueprint.
 5. **Interview prompts** — questions you should be able to answer without opening the notes.
 
+For a single continuous revision pass, start with the [Complete Interview Guide](00-complete-interview-guide/README.md). It contains every topic from the expanded syllabus in one document and links to the deeper chapter for code and trade-offs.
+
 ## Status labels
 
 | Label | Meaning |
@@ -37,6 +39,26 @@ This directory is the interview revision guide for the e-commerce system. Each c
 | 13 | [Kubernetes](13-kubernetes/README.md) | Convert services into deployable workloads. |
 | 14 | [Production](14-production-architecture/README.md) | Discuss hardening, delivery, payments, and migrations. |
 | 15 | [Interview playbook](15-interview-playbook/README.md) | Give a concise, technically accurate project explanation. |
+
+## Expanded deep dives
+
+| Area | Deep dive |
+|---|---|
+| Architecture, decomposition, and Conway's Law | [16 — Architecture patterns](16-architecture-patterns/README.md) |
+| REST maturity, gRPC, GraphQL, contracts, and schema evolution | [17 — Communication and contracts](17-communication-and-contracts/README.md) |
+| Load balancing, discovery, and service mesh | [18 — Discovery and mesh](18-discovery-load-balancing-mesh/README.md) |
+| ACID/BASE, CAP/PACELC, sagas, outbox, CDC, CQRS, and event sourcing | [19 — Distributed data](19-distributed-data-and-consistency/README.md) |
+| Resilience, caching, backpressure, and traffic management | [20 — Resilience and caching](20-resilience-and-caching/README.md) |
+| OpenTelemetry, SLOs, synthetic monitoring, and chaos | [21 — Observability and chaos](21-observability-and-chaos/README.md) |
+| Zero trust, mTLS, SPIFFE, OPA, secrets, and OWASP API risks | [22 — Zero-trust security](22-zero-trust-security/README.md) |
+| Multi-stage images, K8s releases, feature flags, and migrations | [23 — Deployment and DevOps](23-deployment-and-devops/README.md) |
+| IoC, bean lifecycle, scopes, auto-configuration, and profiles | [24 — Spring Core internals](24-spring-core-internals/README.md) |
+| MVC/WebFlux lifecycle, servers, validation, and HTTP clients | [25 — Spring Web and HTTP](25-spring-web-and-http/README.md) |
+| Transactions, Hibernate state, query tuning, locking, and pools | [26 — Spring Data/JPA](26-spring-data-jpa-and-transactions/README.md) |
+| AOP, async execution, scheduling, and resilience annotations | [27 — AOP, async, and resilience](27-spring-aop-async-and-resilience/README.md) |
+| Security filter chain, authentication, authorization, CORS, and CSRF | [28 — Spring Security internals](28-spring-security-internals/README.md) |
+| Actuator, OpenTelemetry, startup optimization, AOT, and operations | [29 — Actuator and production operations](29-actuator-and-production-operations/README.md) |
+| JUnit, Mockito, slice tests, Testcontainers, and WireMock | [30 — Spring testing](30-spring-testing/README.md) |
 
 ## Runtime map
 

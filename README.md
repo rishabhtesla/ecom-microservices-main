@@ -55,22 +55,25 @@ flowchart LR
 ## Read the notes in this order
 
 1. [`docs/README.md`](docs/README.md) — navigation, setup, and implementation status.
-2. [`docs/reference/service-catalog.md`](docs/reference/service-catalog.md) — ports, endpoints, dependencies, and source map.
-3. [`docs/01-microservices-foundations/README.md`](docs/01-microservices-foundations/README.md) — architecture and design vocabulary.
-4. [`docs/02-spring-boot-and-rest/README.md`](docs/02-spring-boot-and-rest/README.md) — Spring Boot request flow and API design.
-5. [`docs/03-domain-design-and-data/README.md`](docs/03-domain-design-and-data/README.md) — bounded contexts, persistence, and decomposition.
-6. [`docs/04-service-discovery-and-config/README.md`](docs/04-service-discovery-and-config/README.md) — Eureka and Config Server.
-7. [`docs/05-api-gateway/README.md`](docs/05-api-gateway/README.md) — routing, filters, and edge security.
-8. [`docs/06-interservice-communication/README.md`](docs/06-interservice-communication/README.md) — RestClient, HTTP interfaces, Feign, and WebClient.
-9. [`docs/07-event-driven-architecture/README.md`](docs/07-event-driven-architecture/README.md) — Kafka, Spring Cloud Stream, events, and delivery guarantees.
-10. [`docs/08-security-and-keycloak/README.md`](docs/08-security-and-keycloak/README.md) — OAuth2, JWT, Keycloak, PKCE, and client credentials.
-11. [`docs/09-resilience-and-reliability/README.md`](docs/09-resilience-and-reliability/README.md) — timeouts, retries, circuit breakers, rate limits, and sagas.
-12. [`docs/10-observability/README.md`](docs/10-observability/README.md) — logs, metrics, traces, and dashboards.
-13. [`docs/11-testing-and-quality/README.md`](docs/11-testing-and-quality/README.md) — unit, integration, contract, and end-to-end testing.
-14. [`docs/12-docker-and-local-platform/README.md`](docs/12-docker-and-local-platform/README.md) — images, Compose, networking, and local operations.
-15. [`docs/13-kubernetes/README.md`](docs/13-kubernetes/README.md) — Kubernetes concepts and a deployment blueprint. This repository does not yet contain tracked Kubernetes manifests.
-16. [`docs/14-production-architecture/README.md`](docs/14-production-architecture/README.md) — production hardening, CI/CD, payments, and migration gaps.
-17. [`docs/15-interview-playbook/README.md`](docs/15-interview-playbook/README.md) — project explanation, questions, and answer frameworks.
+2. [`docs/00-complete-interview-guide/README.md`](docs/00-complete-interview-guide/README.md) — one complete guide containing every topic in the syllabus.
+3. [`docs/reference/service-catalog.md`](docs/reference/service-catalog.md) — ports, endpoints, dependencies, and source map.
+4. [`docs/01-microservices-foundations/README.md`](docs/01-microservices-foundations/README.md) — architecture and design vocabulary.
+5. [`docs/02-spring-boot-and-rest/README.md`](docs/02-spring-boot-and-rest/README.md) — Spring Boot request flow and API design.
+6. [`docs/03-domain-design-and-data/README.md`](docs/03-domain-design-and-data/README.md) — bounded contexts, persistence, and decomposition.
+7. [`docs/04-service-discovery-and-config/README.md`](docs/04-service-discovery-and-config/README.md) — Eureka and Config Server.
+8. [`docs/05-api-gateway/README.md`](docs/05-api-gateway/README.md) — routing, filters, and edge security.
+9. [`docs/06-interservice-communication/README.md`](docs/06-interservice-communication/README.md) — RestClient, HTTP interfaces, Feign, and WebClient.
+10. [`docs/07-event-driven-architecture/README.md`](docs/07-event-driven-architecture/README.md) — Kafka, Spring Cloud Stream, events, and delivery guarantees.
+11. [`docs/08-security-and-keycloak/README.md`](docs/08-security-and-keycloak/README.md) — OAuth2, JWT, Keycloak, PKCE, and client credentials.
+12. [`docs/09-resilience-and-reliability/README.md`](docs/09-resilience-and-reliability/README.md) — timeouts, retries, circuit breakers, rate limits, and sagas.
+13. [`docs/10-observability/README.md`](docs/10-observability/README.md) — logs, metrics, traces, and dashboards.
+14. [`docs/11-testing-and-quality/README.md`](docs/11-testing-and-quality/README.md) — unit, integration, contract, and end-to-end testing.
+15. [`docs/12-docker-and-local-platform/README.md`](docs/12-docker-and-local-platform/README.md) — images, Compose, networking, and local operations.
+16. [`docs/13-kubernetes/README.md`](docs/13-kubernetes/README.md) — Kubernetes concepts and a deployment blueprint. This repository does not yet contain tracked Kubernetes manifests.
+17. [`docs/14-production-architecture/README.md`](docs/14-production-architecture/README.md) — production hardening, CI/CD, payments, and migration gaps.
+18. [`docs/15-interview-playbook/README.md`](docs/15-interview-playbook/README.md) — project explanation, questions, and answer frameworks.
+
+The advanced deep dives are grouped under [`docs/16-30`](docs/16-architecture-patterns/README.md), covering service mesh, consistency, caching, zero trust, Spring internals, JPA transactions, AOP, Spring Security internals, Actuator operations, and modern Spring testing.
 
 ## Quick local orientation
 
